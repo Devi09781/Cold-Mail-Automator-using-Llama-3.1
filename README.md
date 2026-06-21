@@ -49,13 +49,15 @@ ColdEmailgeneratortool/
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-username/Cold-Mail-Automator.git
 cd Cold-Mail-Automator
-2. Create virtual environment
-python -m venv venv
 
-Activate it:
+
+### 2. Create virtual environment
+python -m venv venv
+Activate environment
 
 Windows
 
@@ -73,10 +75,12 @@ Create a .env file in the root directory:
 GROQ_API_KEY=your_groq_api_key_here
 5. Run the application
 streamlit run main.py
-🧠 How It Works
+
+
+### 🧠 How It Works
 User enters a job posting URL
 Web scraper extracts job description
-LLM (Llama 3.1) extracts structured job data:
+LLM extracts structured job data:
 Role
 Skills
 Experience
@@ -84,25 +88,28 @@ Description
 Portfolio system matches skills using ChromaDB
 AI generates a personalized cold email
 Output is displayed in Streamlit UI
-📌 Example Workflow
+📌 Example Usage
+
 Input
 https://jobs.example.com/software-engineer
 Output
 Extracted job role
 Required skills
-Relevant portfolio links
-AI-generated cold email
+Matching portfolio links
+Generated cold email
+
 🔐 Security Best Practices
+
 Never upload .env file to GitHub
-Store API keys in environment variables only
+Store API keys in environment variables
 Rotate keys if exposed
-Always use .gitignore
+Use .gitignore properly
 🚀 Future Improvements
-Email sending automation (SMTP/Gmail API)
-Resume parsing feature
-Batch job processing
-React frontend upgrade
-Dashboard analytics
+📬 Email sending automation (SMTP / Gmail API)
+📄 Resume parsing feature
+🔄 Batch job processing
+🌐 React frontend upgrade
+📊 Analytics dashboard
 👨‍💻 Author
 
 Devi Jetta
@@ -117,12 +124,5 @@ If you like this project:
 🍴 Fork it
 🤝 Contribute
 
----
 
-If you want, I can also make your GitHub look **10x more professional** with:
-- :contentReference[oaicite:0]{index=0}
-- :contentReference[oaicite:1]{index=1}
-- :contentReference[oaicite:2]{index=2}
-- :contentReference[oaicite:3]{index=3}
 
-Just tell me 👍
