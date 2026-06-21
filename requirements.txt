@@ -12,3 +12,4 @@ langchain
 beautifulsoup4
 langchain-groq
 chromadb
+python-version==3.11.9
